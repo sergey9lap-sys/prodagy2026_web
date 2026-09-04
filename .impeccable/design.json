@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-02T02:45:00+03:00",
+  "title": "Design System: Клиенты, воронки и продажи в 2026 году",
+  "extensions": {
+    "colorMeta": {
+      "forest": { "role": "primary", "displayName": "Системный forest", "canonical": "#153b38", "tonalRamp": ["oklch(15% 0.035 185)", "oklch(25% 0.048 185)", "oklch(35% 0.055 185)", "oklch(47% 0.055 185)", "oklch(60% 0.047 185)", "oklch(72% 0.035 185)", "oklch(84% 0.022 185)", "oklch(95% 0.008 185)"] },
+      "forest-deep": { "role": "primary", "displayName": "Глубинный forest", "canonical": "#0d2927", "tonalRamp": ["oklch(15% 0.028 185)", "oklch(25% 0.038 185)", "oklch(35% 0.043 185)", "oklch(47% 0.042 185)", "oklch(60% 0.036 185)", "oklch(72% 0.027 185)", "oklch(84% 0.017 185)", "oklch(95% 0.006 185)"] },
+      "lime": { "role": "secondary", "displayName": "Сигнальный лайм", "canonical": "#cfe77a", "tonalRamp": ["oklch(15% 0.055 115)", "oklch(25% 0.085 115)", "oklch(35% 0.12 115)", "oklch(47% 0.145 115)", "oklch(60% 0.145 115)", "oklch(72% 0.13 115)", "oklch(84% 0.105 115)", "oklch(95% 0.035 115)"] },
+      "lime-soft": { "role": "secondary", "displayName": "Мягкий лайм", "canonical": "#e3efb5", "tonalRamp": ["oklch(15% 0.032 115)", "oklch(25% 0.05 115)", "oklch(35% 0.068 115)", "oklch(47% 0.082 115)", "oklch(60% 0.085 115)", "oklch(72% 0.077 115)", "oklch(84% 0.062 115)", "oklch(95% 0.024 115)"] },
+      "paper": { "role": "neutral", "displayName": "Тёплая бумага", "canonical": "#f2efe6", "tonalRamp": ["oklch(15% 0.008 85)", "oklch(25% 0.01 85)", "oklch(35% 0.012 85)", "oklch(47% 0.014 85)", "oklch(60% 0.016 85)", "oklch(72% 0.018 85)", "oklch(84% 0.02 85)", "oklch(95% 0.018 85)"] },
+      "paper-strong": { "role": "neutral", "displayName": "Плотная бумага", "canonical": "#e7e2d5", "tonalRamp": ["oklch(15% 0.01 80)", "oklch(25% 0.013 80)", "oklch(35% 0.016 80)", "oklch(47% 0.019 80)", "oklch(60% 0.022 80)", "oklch(72% 0.024 80)", "oklch(84% 0.025 80)", "oklch(95% 0.018 80)"] },
+      "mist": { "role": "neutral", "displayName": "Прохладный туман", "canonical": "#dfe5e2", "tonalRamp": ["oklch(15% 0.008 170)", "oklch(25% 0.011 170)", "oklch(35% 0.014 170)", "oklch(47% 0.017 170)", "oklch(60% 0.018 170)", "oklch(72% 0.018 170)", "oklch(84% 0.016 170)", "oklch(95% 0.009 170)"] },
+      "ink": { "role": "neutral", "displayName": "Графит", "canonical": "#172326", "tonalRamp": ["oklch(15% 0.009 215)", "oklch(25% 0.013 215)", "oklch(35% 0.016 215)", "oklch(47% 0.018 215)", "oklch(60% 0.018 215)", "oklch(72% 0.015 215)", "oklch(84% 0.01 215)", "oklch(95% 0.004 215)"] },
+      "ink-soft": { "role": "neutral", "displayName": "Контрастный мягкий графит", "canonical": "#3b4a49", "tonalRamp": ["oklch(15% 0.008 185)", "oklch(25% 0.011 185)", "oklch(35% 0.014 185)", "oklch(47% 0.016 185)", "oklch(60% 0.016 185)", "oklch(72% 0.014 185)", "oklch(84% 0.009 185)", "oklch(95% 0.004 185)"] },
+      "white": { "role": "neutral", "displayName": "Тёплый белый", "canonical": "#fbfaf6", "tonalRamp": ["oklch(15% 0.004 85)", "oklch(25% 0.005 85)", "oklch(35% 0.006 85)", "oklch(47% 0.007 85)", "oklch(60% 0.008 85)", "oklch(72% 0.009 85)", "oklch(84% 0.009 85)", "oklch(95% 0.006 85)"] },
+      "hover-paper": { "role": "neutral", "displayName": "Hover paper", "canonical": "#fffef9", "tonalRamp": ["oklch(15% 0.005 85)", "oklch(25% 0.006 85)", "oklch(35% 0.007 85)", "oklch(47% 0.008 85)", "oklch(60% 0.009 85)", "oklch(72% 0.01 85)", "oklch(84% 0.01 85)", "oklch(98% 0.006 85)"] },
+      "photo-neutral": { "role": "neutral", "displayName": "Photo neutral", "canonical": "#c9c9c8", "tonalRamp": ["oklch(15% 0.002 100)", "oklch(25% 0.002 100)", "oklch(35% 0.002 100)", "oklch(47% 0.002 100)", "oklch(60% 0.002 100)", "oklch(72% 0.002 100)", "oklch(84% 0.002 100)", "oklch(95% 0.001 100)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Hero Display", "purpose": "Cormorant Local только для широкого трёхстрочного H1 первого экрана: clamp(3.6rem, 5.25vw, 5.7rem), line-height 0.88." },
+      "headline": { "displayName": "Section Headline", "purpose": "Cormorant Local только для обычных H1/H2." },
+      "title": { "displayName": "Title / H3", "purpose": "Manrope Local для заголовков карточек и узлов." },
+      "body": { "displayName": "Body", "purpose": "Основной коммерческий и поясняющий текст." },
+      "label": { "displayName": "Label", "purpose": "Кнопки, навигация, вкладки и метаданные." }
+    },
+    "roundedMeta": {
+      "circle": { "value": "50%", "role": "round", "purpose": "Только маршрутные точки, маркеры и hero halo." }
+    },
+    "shadows": [
+      { "name": "featured-tariff", "value": "0 1.4rem 3.6rem rgba(0, 0, 0, 0.19)", "purpose": "Единственная карточная тень; выделяет рекомендованный тариф." },
+      { "name": "hero-halo", "value": "0 1.4rem 4.5rem rgba(0, 0, 0, 0.28)", "purpose": "Поддерживает поднятый портрет и лаймовый ореол." },
+      { "name": "bonus-book", "value": "drop-shadow(0 1rem 1.8rem rgba(0, 0, 0, 0.24))", "purpose": "Отделяет статичный мокап книги от тёмной бонусной карточки." },
+      { "name": "device-lift", "value": "drop-shadow(0 1.8rem 3.5rem rgba(0, 0, 0, 0.40))", "purpose": "Отделяет макет телефона службы заботы." }
+    ],
+    "motion": [
+      { "name": "gsap-section-route", "value": "desktop 0.56s; mobile 0.42s; ease power3.out; stagger 55–95ms; once", "purpose": "Направляет взгляд: заголовок → пояснение → визуал/карточки → действие." },
+      { "name": "tab-panel", "value": "pointer only; duration 0.48s; y 14px; autoAlpha 0.55→1", "purpose": "Короткая смена по клику; клавиатурная навигация остаётся мгновенной." },
+      { "name": "hero-route", "value": "duration 0.95s; ease power2.inOut", "purpose": "Вводная прорисовка маршрута после ключевого оффера." },
+      { "name": "system-route-sequence", "value": "desktop 0.72s in section timeline; mobile hidden", "purpose": "Линия соединяет тезис с тремя ролями и не живёт отдельно от карточек." },
+      { "name": "hover-lift", "value": "180–380ms; translateY max -0.25rem", "purpose": "Тихие карточные и ссылочные микровзаимодействия." },
+      { "name": "reduced-motion", "value": "0.01ms; one iteration; no smooth scroll", "purpose": "Отключает пространственное движение без потери содержания." }
+    ],
+    "breakpoints": [
+      { "name": "layout-compact", "value": "1100px" },
+      { "name": "single-column", "value": "820px" },
+      { "name": "small-mobile", "value": "540px" },
+      { "name": "minimum-supported", "value": "320px" }
+    ],
+    "intentionalLiterals": {
+      "tonalFamilies": {
+        "whiteAlpha": ["0.04", "0.08", "0.12", "0.13", "0.14", "0.20", "0.22", "0.26", "0.38", "0.42", "0.58", "0.60", "0.65", "0.68", "0.75", "0.82", "0.84", "0.86", "0.90", "0.94"],
+        "forestAlpha": ["0.58"],
+        "forestDeepAlpha": ["0.16", "0.58", "0.82", "0.86"],
+        "inkAlpha": ["0.16", "0.18", "0.20", "0.30"],
+        "limeAlpha": ["0.18"],
+        "blackAlpha": ["0.19", "0.24", "0.28", "0.40"]
+      },
+      "fontSizesRem": ["0.65", "0.72", "0.74", "0.75", "0.78", "0.82", "0.84", "0.88", "0.90", "0.92", "0.94", "0.95", "1", "1.55", "1.65", "2", "2.75", "3.6", "5.7", "2.65", "4.25", "1.06", "1.28"],
+      "radiiRem": ["0.3", "0.35", "0.4", "0.42", "0.45", "0.5", "0.55", "0.6", "0.62", "0.65", "0.875", "1"]
+    }
+  },
+  "components": [
+    {
+      "name": "Accent Button",
+      "kind": "button",
+      "refersTo": "button-accent",
+      "description": "Главное лаймовое действие в единой геометрии содержательных CTA: 16.3125rem × 3.5rem, по центру секции.",
+      "html": "<a class=\"ds-btn-accent\" href=\"#\"><span>Выбрать тариф</span><i aria-hidden=\"true\"></i></a>",
+      "css": ".ds-btn-accent { position:relative; display:inline-flex; width:min(100%,16.3125rem); height:3.5rem; align-items:center; justify-content:center; padding:.8rem 1rem; overflow:hidden; border:1px solid transparent; border-radius:.55rem; background:var(--lime,#cfe77a); color:var(--forest-deep,#0d2927); font:600 .82rem/1.15 var(--font-body,\"Manrope Local\",sans-serif); text-align:center; white-space:nowrap; text-decoration:none; } .ds-btn-accent span { position:relative; z-index:1; } .ds-btn-accent i { position:absolute; inset:0; transform:translateY(105%); background:var(--white,#fbfaf6); transition:transform 320ms cubic-bezier(.2,.8,.2,1); } .ds-btn-accent:hover i,.ds-btn-accent:focus-visible i { transform:translateY(0); } .ds-btn-accent:focus-visible { outline:.18rem solid var(--lime,#cfe77a); outline-offset:.25rem; }"
+    },
+    {
+      "name": "Secondary Outline CTA",
+      "kind": "button",
+      "refersTo": "button-secondary-outline",
+      "description": "Вторичное действие hero: прозрачное, контурное и спокойнее лаймового CTA.",
+      "html": "<a class=\"ds-btn-outline\" href=\"#\">Изучить программу <span aria-hidden=\"true\">↓</span></a>",
+      "css": ".ds-btn-outline { display:inline-flex; width:min(100%,16.3125rem); height:3.5rem; align-items:center; justify-content:center; gap:.5rem; padding:.8rem 1rem; border:1px solid rgba(251,250,246,.42); border-radius:.55rem; background:transparent; color:var(--white,#fbfaf6); font:600 .82rem/1.15 var(--font-body,\"Manrope Local\",sans-serif); text-align:center; white-space:nowrap; text-decoration:none; transition:border-color 180ms ease,background-color 180ms ease; } .ds-btn-outline span { transition:transform 240ms ease; } .ds-btn-outline:hover,.ds-btn-outline:focus-visible { border-color:rgba(251,250,246,.82); background:rgba(251,250,246,.08); } .ds-btn-outline:hover span,.ds-btn-outline:focus-visible span { transform:translateY(.22rem); } .ds-btn-outline:focus-visible { outline:.18rem solid var(--lime,#cfe77a); outline-offset:.25rem; }"
+    },
+    {
+      "name": "Dark Results Tabs",
+      "kind": "custom",
+      "refersTo": "tab-active-dark",
+      "description": "Контрастный переключатель на forest с лаймовым активным состоянием.",
+      "html": "<div class=\"ds-tabs\" role=\"tablist\"><button class=\"ds-tab is-active\" role=\"tab\" aria-selected=\"true\">Кому полезно</button><button class=\"ds-tab\" role=\"tab\" aria-selected=\"false\">Что изменится</button></div>",
+      "css": ".ds-tabs { display:inline-flex; padding:.28rem; border:1px solid rgba(251,250,246,.2); border-radius:.62rem; background:rgba(251,250,246,.08); } .ds-tab { padding:.72rem .9rem; border:0; border-radius:.42rem; background:transparent; color:rgba(251,250,246,.68); font:600 .82rem/1.15 var(--font-body,\"Manrope Local\",sans-serif); cursor:pointer; } .ds-tab.is-active { background:var(--lime,#cfe77a); color:var(--forest-deep,#0d2927); } .ds-tab:focus-visible { outline:.18rem solid var(--lime,#cfe77a); outline-offset:.15rem; }"
+    },
+    {
+      "name": "Light Result Card",
+      "kind": "card",
+      "refersTo": "card-light-on-dark",
+      "description": "Светлая fit-карточка на тёмной results-секции; все шесть карточек в обеих вкладках имеют семантический strong-якорь.",
+      "html": "<article class=\"ds-result-card\"><span aria-hidden=\"true\"></span><p>Определить <strong>наиболее подходящие источники клиентов.</strong></p></article>",
+      "css": ".ds-result-card { position:relative; width:min(22rem,100%); min-height:7rem; padding:1.5rem 1.5rem 1.5rem 3.2rem; border:1px solid transparent; border-radius:.875rem; background:var(--white,#fbfaf6); color:var(--ink,#172326); font:400 1rem/1.55 var(--font-body,\"Manrope Local\",sans-serif); transition:transform 180ms ease,border-color 180ms ease,background-color 180ms ease; } .ds-result-card strong { color:inherit; font-weight:750; } .ds-result-card span { position:absolute; top:1.5rem; left:1.5rem; width:.62rem; height:.62rem; border:1px solid var(--forest,#153b38); border-radius:50%; transition:background-color 180ms ease,transform 180ms ease; } .ds-result-card:hover { transform:translateY(-.25rem); border-color:var(--lime,#cfe77a); background:var(--hover-paper,#fffef9); } .ds-result-card:hover span { background:var(--lime,#cfe77a); transform:scale(1.12); } .ds-result-card:focus-within { outline:.18rem solid var(--lime,#cfe77a); outline-offset:.25rem; }"
+    },
+    {
+      "name": "Indexed Question Card",
+      "kind": "card",
+      "refersTo": "card-light-on-dark",
+      "description": "Вопросная карточка с зарезервированной верхней зоной: индекс не перекрывает заголовок.",
+      "html": "<article class=\"ds-question-card\"><span>01</span><h3>Где сейчас находить клиентов?</h3><p>Разберём <strong>более 30 способов поиска и привлечения клиентов</strong>.</p></article>",
+      "css": ".ds-question-card { position:relative; display:grid; width:min(24rem,100%); min-height:22rem; grid-template-rows:4.5rem auto; align-content:start; gap:1rem; padding:5.25rem 2rem 2rem; border:1px solid rgba(251,250,246,.12); border-radius:.875rem; background:var(--white,#fbfaf6); color:var(--ink,#172326); font-family:var(--font-body,\"Manrope Local\",sans-serif); } .ds-question-card>span { position:absolute; top:1.5rem; left:2rem; color:var(--ink-soft,#3b4a49); font-size:.82rem; font-variant-numeric:tabular-nums; } .ds-question-card h3 { margin:0; font-size:clamp(1.06rem,1.25vw,1.28rem); line-height:1.2; } .ds-question-card p { margin:0; color:var(--ink-soft,#3b4a49); font-size:.94rem; line-height:1.55; } .ds-question-card strong { color:var(--ink,#172326); font-weight:750; } .ds-question-card:hover { transform:translateY(-.25rem); } .ds-question-card:focus-within { outline:.18rem solid var(--lime,#cfe77a); outline-offset:.25rem; } @media (max-width:820px) { .ds-question-card { min-height:17rem; grid-template-rows:auto; padding-top:4.5rem; } }"
+    },
+    {
+      "name": "Timing Checklist",
+      "kind": "custom",
+      "description": "Outlined двухколоночный интерактивный checklist на лаймовой секции.",
+      "html": "<ul class=\"ds-timing-list\"><li>что вы будете продавать;</li><li>откуда будут приходить клиенты;</li><li>как человек будет двигаться к покупке;</li><li>что действительно влияет на продажи.</li></ul>",
+      "css": ".ds-timing-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.75rem; padding:0; color:var(--ink,#172326); font:600 1rem/1.55 var(--font-body,\"Manrope Local\",sans-serif); list-style:none; } .ds-timing-list li { position:relative; min-height:4.25rem; padding:.85rem .9rem .85rem 2.1rem; border:1px solid rgba(23,35,38,.3); border-radius:.65rem; background:rgba(251,250,246,.2); transition:transform 180ms cubic-bezier(.22,1,.36,1),border-color 180ms ease,background-color 180ms ease; } .ds-timing-list li::before { position:absolute; top:1.28rem; left:.9rem; width:.48rem; height:.48rem; border-radius:50%; background:var(--forest,#153b38); content:\"\"; } .ds-timing-list li:hover { transform:translateY(-.16rem); border-color:rgba(21,59,56,.58); background:rgba(251,250,246,.38); } @media (max-width:540px) { .ds-timing-list { grid-template-columns:1fr; } }"
+    },
+    {
+      "name": "Timing Bonus Card",
+      "kind": "card",
+      "refersTo": "card-dark-on-light",
+      "description": "Компактная тёмная бонусная карточка естественной высоты со статичным мокапом /bonus-book.png, меткой 1rem и near-white .94 текстом; align-self:center убирает пустой нижний хвост.",
+      "html": "<article class=\"ds-bonus-card\"><span>Бонус</span><img src=\"/bonus-book.png\" alt=\"\"><h3>Готовый материал для внедрения</h3><p>Используйте как опору после программы.</p></article>",
+      "css": ".ds-bonus-card { position:relative; display:grid; width:min(30rem,100%); min-height:27rem; align-content:end; gap:1rem; padding:2rem; overflow:hidden; border-radius:.875rem; background:var(--forest,#153b38); color:var(--white,#fbfaf6); font-family:var(--font-body,\"Manrope Local\",sans-serif); transition:transform 180ms ease; } .ds-bonus-card>span { position:absolute; top:2rem; left:2rem; color:var(--lime,#cfe77a); font-size:.82rem; font-weight:600; } .ds-bonus-card img { position:absolute; top:2.4rem; right:1.6rem; width:min(31%,11.5rem); height:auto; filter:drop-shadow(0 1rem 1.8rem rgba(0,0,0,.24)); transform:rotate(3deg); } .ds-bonus-card h3,.ds-bonus-card p { position:relative; z-index:1; max-width:72%; margin:0; } .ds-bonus-card p { color:rgba(251,250,246,.94); line-height:1.55; } .ds-bonus-card:hover { transform:translateY(-.25rem); } .ds-bonus-card:focus-within { outline:.18rem solid var(--lime,#cfe77a); outline-offset:.25rem; } @media (max-width:540px) { .ds-bonus-card { grid-template-columns:minmax(0,1fr) 5.75rem; grid-template-areas:\"eyebrow book\" \"title title\" \"copy copy\"; align-content:start; min-height:auto; padding-top:1.5rem; } .ds-bonus-card>span { position:static; grid-area:eyebrow; align-self:start; max-width:12rem; padding-top:.2rem; } .ds-bonus-card img { position:static; grid-area:book; justify-self:end; align-self:start; width:5.75rem; } .ds-bonus-card h3 { grid-area:title; max-width:100%; margin-top:1rem; } .ds-bonus-card p { grid-area:copy; max-width:100%; } }"
+    },
+    {
+      "name": "Author Facts",
+      "kind": "custom",
+      "description": "Пять компактных фактов автора; без testimonial или кейса внутри блока.",
+      "html": "<div class=\"ds-author-facts\"><p><strong>Собственник BMCG</strong>, архитектор акселератора.</p><p><strong>Автор стратегических программ</strong> для крупных компаний.</p><p><strong>Колумнист РБК и Forbes Russia</strong>.</p><p><strong>Резидент Клуба Первых</strong>.</p><p><strong>Член попечительского совета</strong>.</p></div>",
+      "css": ".ds-author-facts { display:grid; gap:.5rem; width:min(34rem,100%); color:var(--ink-soft,#3b4a49); font:400 .94rem/1.48 var(--font-body,\"Manrope Local\",sans-serif); } .ds-author-facts p { margin:0; padding:.78rem .95rem; border:1px solid rgba(23,35,38,.2); border-radius:.6rem; background:rgba(251,250,246,.42); transition:transform 180ms cubic-bezier(.22,1,.36,1),border-color 180ms ease,background-color 180ms ease; } .ds-author-facts p:hover { transform:translateY(-.16rem); border-color:rgba(21,59,56,.58); background:rgba(251,250,246,.38); } .ds-author-facts strong { color:var(--ink,#172326); font-weight:750; }"
+    },
+    {
+      "name": "Route Node",
+      "kind": "custom",
+      "description": "Непрозрачный forest-deep узел секционной Route Map; не используется как label в hero.",
+      "html": "<span class=\"ds-route-node\">Воронка</span>",
+      "css": ".ds-route-node { position:relative; display:inline-block; padding:.45rem .6rem; border:1px solid rgba(255,255,255,.22); border-radius:.35rem; background:var(--forest-deep,#0d2927); color:var(--white,#fbfaf6); font:600 .74rem/1.15 var(--font-body,\"Manrope Local\",sans-serif); } .ds-route-node::before { position:absolute; top:50%; left:-.35rem; width:.42rem; height:.42rem; border-radius:50%; background:var(--lime,#cfe77a); content:\"\"; transform:translateY(-50%); }"
+    },
+    {
+      "name": "Expanded Featured Tariff",
+      "kind": "card",
+      "description": "Полностью раскрытый тариф: тёмные варианты используют near-white .94, а весь текст featured-варианта — ink.",
+      "html": "<article class=\"ds-tariff\"><header><span>Практика</span><strong>5 900 Р</strong></header><h3>Собрать систему и получить обратную связь</h3><ul><li>24 механики продаж продукта.</li><li>Живая практика в Zoom.</li></ul><p>Подробные протоколы, практика и разбор ваших воронок.</p><a href=\"#\">Выбрать «Практику»</a></article>",
+      "css": ".ds-tariff { display:grid; width:min(22rem,100%); min-height:31rem; grid-template-rows:auto auto auto 1fr auto; gap:1rem; padding:1.5rem; border:1px solid var(--lime,#cfe77a); border-radius:.875rem; background:var(--white,#fbfaf6); color:var(--ink,#172326); box-shadow:0 1.4rem 3.6rem rgba(0,0,0,.19); font-family:var(--font-body,\"Manrope Local\",sans-serif); transition:transform 180ms ease; } .ds-tariff header { display:flex; justify-content:space-between; gap:1rem; padding-bottom:1rem; border-bottom:1px solid currentColor; } .ds-tariff strong { font-size:1.65rem; font-variant-numeric:tabular-nums; } .ds-tariff h3 { margin:0; font-size:clamp(1.06rem,1.25vw,1.28rem); line-height:1.2; } .ds-tariff ul { color:var(--ink,#172326); font-size:.94rem; line-height:1.5; } .ds-tariff p { color:var(--ink,#172326); font-size:.9rem; line-height:1.5; } .ds-tariff--dark { border-color:rgba(251,250,246,.2); background:rgba(13,41,39,.58); color:var(--white,#fbfaf6); box-shadow:none; } .ds-tariff--dark ul,.ds-tariff--dark p { color:rgba(251,250,246,.94); } .ds-tariff a { display:inline-flex; min-height:3.2rem; align-items:center; justify-content:center; padding:.9rem 1.2rem; border-radius:.55rem; background:var(--lime,#cfe77a); color:var(--forest-deep,#0d2927); font:600 .82rem/1 var(--font-body,\"Manrope Local\",sans-serif); text-decoration:none; } .ds-tariff:hover { transform:translateY(-.25rem); } .ds-tariff a:focus-visible { outline:.18rem solid var(--lime,#cfe77a); outline-offset:.25rem; }"
+    },
+    {
+      "name": "Neutral Notes",
+      "kind": "custom",
+      "description": "Market section note — нейтральная paper-панель со стандартной линией, без лаймового tint и точки; record note остаётся связной bordered-панелью.",
+      "html": "<div class=\"ds-callouts\"><p class=\"ds-section-note\">Сопоставьте решение со своей системой.</p><article class=\"ds-record-note\"><h3>Если не получится присутствовать онлайн</h3><p>Материалы останутся у вас, чтобы вернуться к каждому шагу.</p></article></div>",
+      "css": ".ds-callouts { display:grid; gap:1rem; width:min(48rem,100%); font-family:var(--font-body,\"Manrope Local\",sans-serif); color:var(--ink,#172326); } .ds-section-note { margin:0; padding:1rem 1.15rem; border:1px solid rgba(23,35,38,.18); border-radius:.65rem; background:rgba(251,250,246,.42); font-weight:560; } .ds-record-note { display:grid; grid-template-columns:minmax(16rem,.58fr) 1fr; align-items:start; gap:1.5rem; padding:1.5rem; border:1px solid rgba(23,35,38,.3); border-radius:.875rem; background:rgba(251,250,246,.22); } .ds-record-note h3,.ds-record-note p { margin:0; } .ds-record-note p { font-weight:520; } @media (max-width:820px) { .ds-record-note { grid-template-columns:1fr; } }"
+    },
+    {
+      "name": "Care External Link",
+      "kind": "custom",
+      "description": "Текстовая ссылка службы заботы с authored inline SVG-стрелкой толщиной 1.6px.",
+      "html": "<a class=\"ds-care-link\" href=\"#\">ВКонтакте <svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M5 11 11.5 4.5M6.5 4.5h5v5\" /></svg></a>",
+      "css": ".ds-care-link { display:inline-flex; align-items:center; gap:.5rem; color:var(--white,#fbfaf6); font:600 .82rem/1.15 var(--font-body,\"Manrope Local\",sans-serif); text-decoration:none; } .ds-care-link svg { width:1rem; height:1rem; flex:0 0 auto; fill:none; stroke:currentColor; stroke-linecap:round; stroke-linejoin:round; stroke-width:1.6; transition:transform 240ms ease; } .ds-care-link:hover svg,.ds-care-link:focus-visible svg { transform:translate(.2rem,-.15rem); } .ds-care-link:focus-visible { outline:.18rem solid var(--lime,#cfe77a); outline-offset:.25rem; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Премиальный управляемый маршрут",
+    "overview": "Система превращает коммерческий путь в спокойную редакционную историю: источник интереса, воронка и продажа связаны линиями, узлами, индексами и последовательным чередованием глав. Премиальный характер строится на крупной Cormorant, точной Manrope, тёплой бумаге и глубоком лесном зелёном, а не на декоративной роскоши или инфобизнесовом нажиме. Долговечная теза мира: разрозненные действия соединяются в управляемую систему. Форма — strategic decision map (direction 7, concept-roll seed-key `b71f9af4`), а порядок страницы неизменен: проблема → система → сопоставление → доказательства → тариф. Визуальный мир держится на тёплой бумаге, глубоком зелёном, графите, редком лаймовом сигнале, строгой сетке, линиях маршрута и реальных фотографиях. Каждая следующая секция контрастирует с предыдущей: бумага сменяет forest, а карточки инвертируют поверхность секции. Светлые карточки работают на тёмном фоне; тёмные карточки — на светлом или лаймовом. Фотографии подняты в композиции и служат доказательством, а не фоном. Лайм остаётся редким сигналом действия, активного состояния и прохождения маршрута. Движение показывает связь и порядок, но заканчивается достаточно рано, чтобы посетитель успел прочитать результат. Hover-реакции тихие и локальные: подъём до 4px, проявление границы, движение стрелки или сигнальной точки. Без анимации страница остаётся полной и убедительной.",
+    "keyCharacteristics": [
+      "Премиальная редакционная Cormorant используется в H1/H2 и знаке рубля ₽; интерфейс, H3, цифры и основной текст остаются в Manrope.",
+      "Бумажные и forest-секции чередуются контрастно; карточки инвертируют тон своей секции.",
+      "Маршрут, узлы и тонкие линии делают причинность видимой.",
+      "Реальные портреты и факты стоят рядом с утверждениями; авторский блок не подменяется кейсом.",
+      "Лайм — один функциональный сигнал для CTA, выбора, фокуса и активного пути.",
+      "Микровзаимодействия заметны только в момент наведения или фокуса и не меняют макет.",
+      "Первый viewport строится вокруг широкого трёхстрочного exact-copy H1 слева и увеличенного портрета Александры справа; до 540px H1 и портрет остаются рядом в пропорции 58/42, а остальной оффер идёт ниже на полную ширину."
+    ],
+    "rules": [
+      { "name": "The Alternating Ground Rule", "body": "Paper и forest чередуются как главы; светлая карточка живёт на тёмной поверхности, тёмная — на светлой или лаймовой.", "section": "colors" },
+      { "name": "The One Signal Rule", "body": "Лайм сообщает о действии, фокусе, выборе или движении по маршруту; он не используется как массовый декоративный фон карточек.", "section": "colors" },
+      { "name": "The Tonal Family Rule", "body": "Прозрачные литералы выше считаются состояниями нормативных white, forest-deep, ink и lime, а не новыми цветами и не дрейфом.", "section": "colors" },
+      { "name": "The Serif Boundary Rule", "body": "Cormorant Local применяется к H1/H2 и знаку рубля ₽ в ценах. H3, числа цен, показатели, кнопки, навигация и текст используют Manrope Local.", "section": "typography" },
+      { "name": "The Controlled Wrap Rule", "body": "Заголовки балансируются; короткие предлоги, инициалы, числа с единицами и слова через дефис не должны переноситься небрежно.", "section": "typography" },
+      { "name": "The Route Continuity Rule", "body": "Каждый блок продолжает коммерческий маршрут через выравнивание, линию, повторяемый узел или содержательную последовательность.", "section": "layout" },
+      { "name": "The Force-Line Rule", "body": "Внутри смысловой колонки заголовок задаёт вертикальные направляющие; supporting copy не выходит за его текстовый коридор, а функционально отдельные области сохраняют собственную ширину.", "section": "layout" },
+      { "name": "The Always-Visible Offer Rule", "body": "Состав всех тарифов и их пояснения видны одновременно; не возвращать accordion или взаимно исключающее раскрытие.", "section": "layout" },
+      { "name": "The Flat-by-Default Rule", "body": "Обычная карточка получает тон, линию или прозрачность; тень оставляется для доказуемого приоритета.", "section": "elevation" },
+      { "name": "The Structured Curve Rule", "body": "Скругление смягчает строгую сетку, но не превращает интерфейс в набор капсул; круг используется только для естественно круглой функции.", "section": "shapes" },
+      { "name": "The Meaningful Motion Rule", "body": "Движение показывает связь, порядок чтения, выбранный маршрут или подтверждение действия.", "section": "components" },
+      { "name": "The Early Finish Rule", "body": "Скролл-маршрут должен завершиться к `top 34%`, а не сопровождать секцию до выхода из viewport.", "section": "components" }
+    ],
+    "dos": [
+      "**Do** использовать Cormorant Local для H1/H2 и знака рубля ₽, а Manrope Local — для остального текста и интерфейса.",
+      "**Do** чередовать paper и forest и инвертировать карточки относительно фона секции.",
+      "**Do** сохранять hero-заголовок `clamp(3.6rem, 5.25vw, 5.7rem)`, line-height 0.88, три явные строки approved copy и обычный H1/H2 `clamp(2.65rem, 4vw, 4.25rem)`.",
+      "**Do** считать литералы из `typography.scale`, `rounded` и Intentional Tonal Literals нормативными состояниями системы.",
+      "**Do** держать results-карточки светлыми на forest, timing checklist двухколоночным и outlined на десктопе, record note единой bordered-панелью, авторский блок с пятью bordered-фактами без кейса, а тарифы полностью раскрытыми.",
+      "**Do** сохранять secondary hero CTA контурным и визуально вторичным относительно лаймового CTA.",
+      "**Do** сохранять hero portrait-led: без route chips и system-node labels, с подписью автора под портретом.",
+      "**Do** давать каждой fit-карточке один семантический `strong`-якорь и держать market note нейтральной paper-панелью.",
+      "**Do** проверять 1100px, 820px, 540px и 320px, keyboard focus и reduced motion."
+    ],
+    "donts": [
+      "**Don't** использовать Cormorant для H3, чисел цен, показателей, кнопок или основного текста; исключение — знак рубля ₽ в цене.",
+      "**Don't** ставить тёмные карточки на forest или светлые карточки на paper без осознанной причины; инверсия поверхности — основной контрастный принцип.",
+      "**Don't** возвращать тарифные accordion/details или скрывать состав тарифа.",
+      "**Don't** добавлять кейс в авторский блок вместо пяти фактов и подтверждённых показателей.",
+      "**Don't** возвращать в hero маршрутные chips, system-node labels или лаймовый callout для market note.",
+      "**Don't** запускать все элементы секции одновременно, переигрывать входы при обратном скролле или анимировать клавиатурную смену вкладок.",
+      "**Don't** вводить новый цвет, кегль или радиус, пока его роль не добавлена одновременно в frontmatter и sidecar.",
+      "**Don't** использовать громкие градиенты, неон, псевдодефицит, тяжёлые hover-трансформации или массовые тени."
+    ]
+  }
+}
