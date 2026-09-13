@@ -1,4 +1,5 @@
 /* Three-block registration page; master-class stylesheet remains independent. */
+.webinar-page { --action: #f3d36a; --action-hover: #ffe493; --action-ink: #0b2340; }
 .webinar-page .hero::before { display: none; }
 .webinar-page .hero { padding-top: 3rem; }
 .webinar-page .hero-copy { gap: 1.15rem; }
@@ -17,7 +18,7 @@
 .webinar-page .hero-meta span { color: var(--white); }
 .webinar-page .hero-meta p { padding-top: 0.8rem; }
 .webinar-program { background: var(--gold-surface); }
-.webinar-audience { display: grid; grid-template-columns: 10rem minmax(0, 1fr); gap: 2rem; padding-bottom: 2rem; margin-bottom: 2rem; border-bottom: 1px solid var(--line); }
+.webinar-audience { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; padding-bottom: 2rem; margin-bottom: 2rem; border-bottom: 1px solid var(--line); }
 .webinar-audience p { max-width: 68ch; }
 .webinar-program .section-heading--row { grid-template-columns: 1fr 1fr; margin-bottom: 2rem; gap: 3rem; }
 .webinar-program .section-lead { font-size: 1rem; }
