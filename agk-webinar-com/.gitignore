@@ -1,0 +1,22 @@
+node_modules/
+dist/
+.vite/
+*.log
+.DS_Store
+.impeccable/review/
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
+
+# Test and coverage output
+coverage/
+playwright-report/
+test-results/
